@@ -1,0 +1,6 @@
+# Folders
+_untracked-files/
+.history/
+
+# Files
+Gemfile.lock
