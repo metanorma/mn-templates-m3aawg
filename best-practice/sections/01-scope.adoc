@@ -1,5 +1,5 @@
 
-:sectnums:
+
 == Scope
 
 // Insert scope here.

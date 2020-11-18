@@ -1,5 +1,5 @@
 
-:sectnums!:
+[.preface]
 == Introduction
 
 // Insert introduction here.
