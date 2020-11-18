@@ -1,0 +1,13 @@
+
+:sectnums:
+== Scope
+
+// Insert scope here.
+
+This document specifies guidelines for calendar and mail system operators to:
+
+* detect the occurrence of calendar abuse;
+
+* consider processes and procedures to mitigate calendar abuse; and
+
+* suggest acceptable (non-abusive) practices with calendar usage.

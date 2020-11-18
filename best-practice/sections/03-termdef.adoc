@@ -1,0 +1,71 @@
+
+[[terms]]
+== Terms, definitions and abbreviations
+
+=== Terms and definitions
+
+[[calendar-spam]]
+==== calendar spam
+
+calendar events and meeting invitations containing _spam_ (<<term-spam>>) delivered
+through _calendar systems_ (<<term-calendar-system>>)
+
+
+[[term-calendar-abuse]]
+==== calendar abuse
+
+malicious usage of a _calendar system_ (<<term-calendar-system>>),
+possibly leading to an _attack_ (<<ISO27000,clause 3.2>>)
+on the receiving user
+
+
+[[term-spam]]
+==== spam
+
+unsolicited or unwanted information
+
+
+[[attack]]
+==== attack
+
+attempt to destroy, expose, alter, disable, steal or gain unauthorized
+access to or make unauthorized use of an asset
+
+[.source]
+<<ISO27000>>
+
+
+[[term-calendar-system]]
+==== calendar system
+
+information system that provides calendar and scheduling functionality for user
+accounts
+
+
+[[mail-system]]
+==== mail system
+
+information system that provides electronic mail functionality
+
+
+[[user-system]]
+==== user system
+
+information system that provides authentication and authorization functionality
+
+
+
+[[abbrev]]
+=== Abbreviations
+
+iMIP:: iCalendar Message-Based Interoperability Protocol (see <<iMIP>>)
+
+iTIP:: iCalendar Transport-Independent Interoperability Protocol (see <<iTIP>>)
+
+SMTP:: Simple Mail Transfer Protocol (see <<SMTP>>)
+
+DNSBL:: Domain Name System-based Blackhole List
+
+URIBL:: Realtime URI Blacklist
+
+ARF:: Abuse Reporting Format

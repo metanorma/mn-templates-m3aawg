@@ -1,0 +1,24 @@
+
+:sectnums!:
+== Introduction
+
+// Insert introduction here.
+
+=== Rise of calendar spam
+
+"`Calendar spam`" -- unsolicited, or otherwise unwanted, calendar events and meeting
+invitations -- is a recently exploited channel for abuse aimed at users of
+calendaring & scheduling systems.
+
+It is a new form of application-specific spam which takes advantage of the application
+layer across multiple technologies that spans scheduling, calendaring and messaging
+systems.
+
+As is the case with email spam, calendar spam is not only used to deliver unwanted
+information, but can also be used for malicious purposes such as phishing attempts
+and delivering dangerous payloads.
+
+Because calendar events and meeting invitations are often (but not exclusively)
+transported and delivered via email, combatting calendar spam requires awareness,
+intervention and integration with email systems and services.
+
