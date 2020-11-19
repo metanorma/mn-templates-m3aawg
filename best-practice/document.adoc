@@ -10,8 +10,6 @@
 :doctype: best-practice
 :comment: ### Document edition
 :edition: 1
-:comment: ### Document version
-:version: 1.0
 :comment: ### Year of copyright
 :copyright-year: 2018
 :comment: ### Last update date
