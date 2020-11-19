@@ -7,15 +7,15 @@
 [[calendar-spam]]
 ==== calendar spam
 
-calendar events and meeting invitations containing _spam_ (<<term-spam>>) delivered
-through _calendar systems_ (<<term-calendar-system>>)
+calendar events and meeting invitations containing term:[spam] delivered
+through term:[calendar systems,calendar system]
 
 
 [[term-calendar-abuse]]
 ==== calendar abuse
 
-malicious usage of a _calendar system_ (<<term-calendar-system>>),
-possibly leading to an _attack_ (<<ISO27000,clause 3.2>>)
+malicious usage of a term:[calendar system]
+possibly leading to an term:[attack]
 on the receiving user
 
 
