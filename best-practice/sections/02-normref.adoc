@@ -1,0 +1,10 @@
+
+
+[bibliography]
+== Normative references
+
+// Insert references here.
+
+* [[[iMIP,IETF RFC 6047]]], _iCalendar Message-Based Interoperability Protocol (iMIP)_
+
+* [[[iTIP,IETF RFC 5546]]], _iCalendar Transport-Independent Interoperability Protocol (iTIP)_

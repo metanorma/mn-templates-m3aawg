@@ -1,0 +1,8 @@
+
+[[content]]
+== Main content
+
+// Here's where you place your main content.
+Main content.
+
+

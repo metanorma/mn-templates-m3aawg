@@ -1,0 +1,80 @@
+= Calendar operator practices -- Guidelines to protect against calendar abuse
+:comment: ### Best Practice Template
+:comment: ### Title of the document
+:title: Calendar operator practices -- Guidelines to protect against calendar abuse
+:comment: ### Numeric component of the document identifier
+:docnumber: 333
+:comment: ### Document status. See comment 1.
+:status: final-draft
+:comment: ### Document type. See comment 2.
+:doctype: best-practice
+:comment: ### Document edition
+:edition: 1
+:comment: ### Year of copyright
+:copyright-year: 2018
+:comment: ### Last update date
+:revdate: 2018-10-31
+:comment: ### Date on which the standard was published (distributed by the publisher).
+:published-date: 2018-10-31
+:comment: ### Full name of a person who is contributor to the document.
+:fullname: Thomas Schäfer
+:comment: ### Organization that the contributor is affiliated with.
+:affiliation: 1&1 Mail&Media Development and Technology GmbH
+:fullname_2: Jesse Thompson
+:affiliation_2: University of Wisconsin-Madison
+:comment: ### Document language.
+:language: en
+:comment: ### Name of the relevant technical committee
+:technical-committee: CalConnect TC CALSPAM
+:comment: ### Draft status, enables display of reviewer notes; remove if final document
+:draft:
+:comment: ### Name of this AsciiDoc file
+:docfile: document.adoc
+:comment: ### Metanorma flavour: applies to all ISO documents
+:mn-document-class: m3aawg
+:comment: ### Desired output formats. Metanorma-ISO supports the following output extension values: xml (MN XML), html (ISO-style HTML), html_alt (pretty HTML), doc (Word .doc)
+:mn-output-extensions: xml,html,doc,rxl
+:local-cache-only:
+:data-uri-image:
+
+
+////
+Comment 1: Status
+
+Permitted values are:
+- proposal
+- working-draft
+- committee-draft
+- draft-standard
+- final-draft
+- published
+- withdrawn
+
+
+Comment 2: doctype
+
+Permitted values are:
+- policy
+- best-practices
+- supporting-document
+- report
+////
+
+
+include::sections/00-foreword.adoc[]
+
+include::sections/00-introduction.adoc[]
+
+include::sections/01-scope.adoc[]
+
+include::sections/02-normref.adoc[]
+
+include::sections/03-termdef.adoc[]
+
+include::sections/04-content.adoc[]
+
+include::sections/a1-annex.adoc[]
+
+include::sections/a2-annex.adoc[]
+
+include::sections/zz-bibliography.adoc[]
