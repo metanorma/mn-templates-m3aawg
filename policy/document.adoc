@@ -1,0 +1,59 @@
+= M3AAWG Comments on the Initial Report of the Temporary Specification for gTLD Registration Data Phase 2 Expedited Policy Development Process
+:comment: ### Policy Template
+:comment: ### Title of the document
+:title: M3AAWG Comments on the Initial Report of the Temporary Specification for gTLD Registration Data Phase 2 Expedited Policy Development Process
+:comment: ### Document status. See comment 1.
+:status: published
+:comment: ### Document type. See comment 2.
+:doctype: policy
+:comment: ### Document edition
+:edition:
+:comment: ### Year of copyright
+:copyright-year: 2020
+:comment: ### Last update date
+:revdate: 2020-03-23
+:comment: ### Date on which the standard was published (distributed by the publisher).
+:published-date: 2020-03-23
+:comment: ### Document language.
+:language: en
+:comment: ### Name of the relevant technical committee
+:technical-committee:
+:comment: ### Draft status, enables display of reviewer notes; remove if final document
+:draft:
+:comment: ### Name of this AsciiDoc file
+:docfile: document.adoc
+:comment: ### Metanorma flavour: applies to all ISO documents
+:mn-document-class: m3aawg
+:comment: ### Desired output formats. Metanorma-ISO supports the following output extension values: xml (MN XML), html (ISO-style HTML), html_alt (pretty HTML), doc (Word .doc)
+:mn-output-extensions: xml,html,doc,rxl
+:local-cache-only:
+:data-uri-image:
+
+
+////
+Comment 1: Status
+
+Permitted values are:
+- proposal
+- working-draft
+- committee-draft
+- draft-standard
+- final-draft
+- published
+- withdrawn
+
+
+Comment 2: doctype
+
+Permitted values are:
+- policy
+- best-practices
+- supporting-document
+- report
+////
+
+
+include::sections/00-foreword.adoc[]
+
+include::sections/01-recommendations.adoc[]
+

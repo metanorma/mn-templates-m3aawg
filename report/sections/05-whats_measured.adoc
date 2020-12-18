@@ -1,0 +1,22 @@
+
+== What is Measured?
+
+_Insert list of variables measured in the report.
+
+_Example:_
+
+* *Number of Subscribers* +
+The number of specific subscribers on a network. Each subscriber may represent more than
+one end-user or include multiple devices.
+
+* *Infected Subscribers* +
+This is the count of unique subscribers identified to be infected in each reporting period.
+
+* *Total Number of Infected Subscribers Notified* +
+The number of unique subscribers notified of a bot by any method, including text message,
+phone call, email, Web redirection or browser notification, and postal mail. Multiple notices
+sent to the same subscriber are counted as one. This does not imply that the subscriber
+received or read the notice.
+
+* *Percent Notified* +
+Calculated from above: Infected Subscribers Notified / Infected Subscribers
