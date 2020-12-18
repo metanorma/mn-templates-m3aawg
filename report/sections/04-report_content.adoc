@@ -1,0 +1,21 @@
+== Report #1 -- 2012 and 2013 Results Summarized by Quarter
+
+_Insert report content. (Including tables)._
+
+_Example:_
+
+The statistics reported below are compiled from confidential monthly data provided by participating
+M^3^AAWG member ISPs and network operators summarized here by quarter from 2012 through
+2013. Our reporting basis covers a quarterly average of up to 43.5 million subscribers.
+
+[%unnumbered]
+[cols="5*",options="header"]
+|===
+| 2012 | Q1 2012 | Q2 2012 | Q3 2012 | Q4 2012 
+
+| Subscribers Represented | 37,707,435 | 37,358,206 | 36,991,516 | 37,383,662
+| Subscribers Deemed Infected | 317,064 | 402,585 | 249,492 | 440,746
+| % Infected | 0.84 % | 1.08 % | 0.67 % | 1.18 %
+| Infected Subscribers Notified | 314,295 | 400,439 | 245,522 | 437,253
+| % Notified | 99.13 % | 99.47 % | 98.41 % | 99.21 %
+|===
