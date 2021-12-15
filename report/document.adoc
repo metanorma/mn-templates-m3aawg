@@ -20,8 +20,6 @@
 :language: en
 :comment: ### Draft status, enables display of reviewer notes; remove if final document
 :draft:
-:comment: ### Name of this AsciiDoc file
-:docfile: document.adoc
 :comment: ### Metanorma flavour: applies to all ISO documents
 :mn-document-class: m3aawg
 :comment: ### Desired output formats. Metanorma-ISO supports the following output extension values: xml (MN XML), html (ISO-style HTML), html_alt (pretty HTML), doc (Word .doc)
