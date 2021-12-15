@@ -1,0 +1,11 @@
+---
+metanorma:
+  source:
+    files:
+      - best-practice/document.adoc
+      - policy/document.adoc
+      - report/document.adoc
+
+  collection:
+    organization: "M3AAWG: Messaging Malware Mobile Anti-Abuse Group"
+    name: "M3AAWG deliverable templates in Metanorma AsciiDoc"
