@@ -1,0 +1,7 @@
+= M^3^AAWG Metanorma Templates
+
+image:https://github.com/metanorma/mn-templates-m3aawg/workflows/test/badge.svg["Test Status", link="https://github.com/metanorma/mn-templates-m3aawg/actions/workflows/test.yml"]
+image:https://github.com/metanorma/mn-templates-m3aawg/workflows/pages/badge.svg["Pages Status", link="https://github.com/metanorma/mn-templates-m3aawg/actions/workflows/pages.yml"]
+image:https://github.com/metanorma/mn-templates-m3aawg/workflows/docker/badge.svg["Build Status", link="https://github.com/metanorma/mn-templates-m3aawg/actions/workflows/docker.yml"]
+
+This GitHub repository contains templates for M^3^AAWG documents.
