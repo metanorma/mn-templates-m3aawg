@@ -1,0 +1,9 @@
+{
+	"type": [ "m3aawg" ],
+	"doctype": [
+		"best-practice",
+		"policy",
+		"report"
+	],
+	"experimental": [ false ]
+}
