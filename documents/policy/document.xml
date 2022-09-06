@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m3d-standard xmlns="https://www.metanorma.org/ns/m3d" type="semantic" version="2.1.7">
+<bibdata type="standard">
+<title language="en" format="text/plain">M3AAWG Comments on the Initial Report of the Temporary Specification for gTLD Registration Data Phase 2 Expedited Policy Development Process</title>
+<docidentifier type="M3AAWG">:2020</docidentifier><date type="published"><on>2020-03-23</on></date><contributor><role type="author"/><organization>
+<name>Messaging Malware and Mobile Anti-Abuse Working Group</name>
+<abbreviation>M3AAWG</abbreviation></organization></contributor><contributor><role type="publisher"/><organization>
+<name>Messaging Malware and Mobile Anti-Abuse Working Group</name>
+<abbreviation>M3AAWG</abbreviation></organization></contributor><edition/><version><revision-date>2020-03-23</revision-date></version><language>en</language><script>Latn</script><status><stage>published</stage></status><copyright><from>2020</from><owner><organization>
+<name>Messaging Malware and Mobile Anti-Abuse Working Group</name>
+<abbreviation>M3AAWG</abbreviation></organization></owner></copyright><ext><doctype>policy</doctype><editorialgroup/></ext></bibdata>
+<boilerplate>
+  <copyright-statement>
+    <clause>
+      <p id="_2ed28f83-1b90-747a-02bf-36555ae292f9">© 2020 Messaging, Malware and Mobile Anti-Abuse Working Group</p>
+    </clause>
+  </copyright-statement>
+
+  
+
+  <legal-statement>
+    <clause>
+      <p id="_299dcfba-ef93-7095-8c28-7f8ffc95374f">All rights reserved. Unless otherwise specified, no part of this
+        publication may be reproduced or utilized otherwise in any form or by any
+        means, electronic or mechanical, including photocopying, or posting on the
+        internet or an intranet, without prior written permission. Permission can
+        be requested from the address below.</p>
+    </clause>
+  </legal-statement>
+
+  <feedback-statement>
+
+    <p id="boilerplate-name">Messaging, Malware and Mobile Anti-Abuse Working Group</p>
+    <p class="boilerplate-address" id="_964db264-9358-0046-6625-b137f10b4c9e">
+      781 Beach Street, Suite 302<br/>
+      San Francisco<br/>
+      California 94109<br/>
+      United States of America<br/>
+      <br/>
+      <link target="https://www.m3aawg.org">www.m3aawg.org</link>
+    </p>
+  </feedback-statement>
+</boilerplate>
+
+<preface><foreword id="_517eb306-a27c-3cf3-e32b-875919cda30b" obligation="informative">
+<title>Foreword</title>
+<p id="_879f1259-8c1b-dacc-c7e2-0a57cc3626b3"><em>Insert foreword content.</em></p>
+</foreword></preface><sections>
+<clause id="_preliminary_recommendation_1" obligation="normative">
+<title>Preliminary Recommendation #1</title>
+<p id="_5d1cc176-d718-9ed2-ad76-69c2b6f1114b"><em>Insert preliminary #1 content.</em></p>
+</clause>
+
+<clause id="_preliminary_recommendation_2" obligation="normative">
+<title>Preliminary Recommendation #2</title>
+<p id="_9aceb3c2-4885-ed11-96a9-df7a882ec053"><em>Insert preliminary #2 content.</em></p>
+</clause>
+
+<clause id="_preliminary_recommendation_n" obligation="normative">
+<title>Preliminary Recommendation #N</title>
+<p id="_fb66cca7-9383-f6f1-6135-a21cbd8c71d0"><em>Insert preliminary #N content.</em></p>
+</clause>
+</sections>
+</m3d-standard>

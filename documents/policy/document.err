@@ -1,0 +1,8 @@
+/__w/mn-templates-m3aawg/mn-templates-m3aawg/site/documents/policy/document.err errors
+
+
+== Metanorma XML Syntax
+
+(XML Line 000011:118): element "editorialgroup" incomplete; missing required element "committee"
+(XML Line 000034:79): attribute "class" not allowed here; expected attribute "align", "id", "keep-lines-together", "keep-with-next", "multilingual-rendering", "tag" or "type"
+(XML Line 000064:16): element "m3d-standard" incomplete; missing required element "bibliography"

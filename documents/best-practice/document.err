@@ -1,0 +1,20 @@
+/__w/mn-templates-m3aawg/mn-templates-m3aawg/site/documents/best-practice/document.err errors
+
+
+== Document Attributes
+
+(): best-practice is not a legal document type: reverting to 'report'
+
+
+== AsciiDoc Input
+
+(XML Line 000120): Error: Term reference to `calendar-systems` missing:                 "calendar-systems" is not defined in document
+	<termxref>calendar systems</termxref>
+
+
+== Metanorma XML Syntax
+
+(XML Line 000019:128): element "committee" missing required attribute "type"
+(XML Line 000053:79): attribute "class" not allowed here; expected attribute "align", "id", "keep-lines-together", "keep-with-next", "multilingual-rendering", "tag" or "type"
+(XML Line 000146:155): element "concept" incomplete; expected element "eref", "refterm", "renderterm", "termref" or "xref"
+(XML Line 000146:26): element "strong" not allowed here; expected element "eref", "refterm", "renderterm", "termref" or "xref"

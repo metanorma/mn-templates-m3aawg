@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m3d-standard xmlns="https://www.metanorma.org/ns/m3d" type="semantic" version="2.1.7">
+<bibdata type="standard">
+<title language="en" format="text/plain">M<sup>3</sup>AAWG Bot Metrics Report — Report #1 — 2012 and 2013</title>
+<docidentifier type="M3AAWG">333:2014</docidentifier><docnumber>333</docnumber><date type="published"><on>2014-09-01</on></date><contributor><role type="author"/><organization>
+<name>Messaging Malware and Mobile Anti-Abuse Working Group</name>
+<abbreviation>M3AAWG</abbreviation></organization></contributor><contributor><role type="publisher"/><organization>
+<name>Messaging Malware and Mobile Anti-Abuse Working Group</name>
+<abbreviation>M3AAWG</abbreviation></organization></contributor><edition/><version><revision-date>2014-09-01</revision-date></version><language>en</language><script>Latn</script><status><stage>published</stage></status><copyright><from>2014</from><owner><organization>
+<name>Messaging Malware and Mobile Anti-Abuse Working Group</name>
+<abbreviation>M3AAWG</abbreviation></organization></owner></copyright><ext><doctype>report</doctype></ext></bibdata>
+<boilerplate>
+  <copyright-statement>
+    <clause>
+      <p id="_ddcc6034-c76f-1d43-229d-644d774a89f2">© 2014 Messaging, Malware and Mobile Anti-Abuse Working Group</p>
+    </clause>
+  </copyright-statement>
+
+  
+
+  <legal-statement>
+    <clause>
+      <p id="_299dcfba-ef93-7095-8c28-7f8ffc95374f">All rights reserved. Unless otherwise specified, no part of this
+        publication may be reproduced or utilized otherwise in any form or by any
+        means, electronic or mechanical, including photocopying, or posting on the
+        internet or an intranet, without prior written permission. Permission can
+        be requested from the address below.</p>
+    </clause>
+  </legal-statement>
+
+  <feedback-statement>
+
+    <p id="boilerplate-name">Messaging, Malware and Mobile Anti-Abuse Working Group</p>
+    <p class="boilerplate-address" id="_964db264-9358-0046-6625-b137f10b4c9e">
+      781 Beach Street, Suite 302<br/>
+      San Francisco<br/>
+      California 94109<br/>
+      United States of America<br/>
+      <br/>
+      <link target="https://www.m3aawg.org">www.m3aawg.org</link>
+    </p>
+  </feedback-statement>
+</boilerplate>
+
+<sections><clause id="_executive_summary" obligation="normative">
+<title>Executive Summary</title>
+<p id="_0d2e770d-40e1-0866-1136-296fae6765a8"><em>Insert excutive summary here.</em></p>
+</clause>
+
+<clause id="_about_the_m3aawg_name_program" obligation="normative">
+<title>About the M<sup>3</sup>AAWG “Name” Program</title>
+<p id="_0d950dc6-f143-2ee7-1736-c0b31b04ed4d"><em>Insert brief description about this particular program.</em></p>
+</clause>
+
+<clause id="_observations" obligation="normative">
+<title>Observations</title>
+<p id="_688de7e0-10f3-9b82-fdc7-c09ab777d991"><em>Insert pertinent observations.</em></p>
+</clause>
+
+<clause id="_report_12012_and_2013_results_summarized_by_quarter" obligation="normative">
+<title>Report #1 — 2012 and 2013 Results Summarized by Quarter</title>
+<p id="_33742bd1-3e55-c966-3fc3-e5f54aaf4898"><em>Insert report content. (Including tables).</em></p>
+
+<p id="_0b39dc17-aa62-c4a9-ab90-ed924ae0c471"><em>Example:</em></p>
+
+<p id="_5d380253-5200-9cf9-02eb-6cda57f61db7">The statistics reported below are compiled from confidential monthly data provided by participating
+M<sup>3</sup>AAWG member ISPs and network operators summarized here by quarter from 2012 through
+2013. Our reporting basis covers a quarterly average of up to 43.5 million subscribers.</p>
+
+<table id="_145e94a7-cdc1-062a-a86f-0034884c9b12" unnumbered="true"><thead><tr><th valign="top" align="left">2012</th>
+<th valign="top" align="left">Q1 2012</th>
+<th valign="top" align="left">Q2 2012</th>
+<th valign="top" align="left">Q3 2012</th>
+<th valign="top" align="left">Q4 2012</th>
+</tr></thead>
+<tbody><tr><td valign="top" align="left">Subscribers Represented</td>
+<td valign="top" align="left">37,707,435</td>
+<td valign="top" align="left">37,358,206</td>
+<td valign="top" align="left">36,991,516</td>
+<td valign="top" align="left">37,383,662</td>
+</tr><tr><td valign="top" align="left">Subscribers Deemed Infected</td>
+<td valign="top" align="left">317,064</td>
+<td valign="top" align="left">402,585</td>
+<td valign="top" align="left">249,492</td>
+<td valign="top" align="left">440,746</td>
+</tr><tr><td valign="top" align="left">% Infected</td>
+<td valign="top" align="left">0.84 %</td>
+<td valign="top" align="left">1.08 %</td>
+<td valign="top" align="left">0.67 %</td>
+<td valign="top" align="left">1.18 %</td>
+</tr><tr><td valign="top" align="left">Infected Subscribers Notified</td>
+<td valign="top" align="left">314,295</td>
+<td valign="top" align="left">400,439</td>
+<td valign="top" align="left">245,522</td>
+<td valign="top" align="left">437,253</td>
+</tr><tr><td valign="top" align="left">% Notified</td>
+<td valign="top" align="left">99.13 %</td>
+<td valign="top" align="left">99.47 %</td>
+<td valign="top" align="left">98.41 %</td>
+<td valign="top" align="left">99.21 %</td>
+</tr></tbody>
+</table>
+</clause>
+
+<clause id="_what_is_measured" obligation="normative">
+<title>What is Measured?</title>
+<p id="_d681f7f1-cebe-c5ef-ccd2-7f213d02ef1b">_Insert list of variables measured in the report.</p>
+
+<p id="_6f515060-15f3-4ac5-1ea8-bfcca8a34ed5"><em>Example:</em></p>
+
+<ul id="_28647711-556f-1627-49ce-1787cb51affc"><li><p id="_4c8fe7c3-1688-6e73-07a8-332b9e2e9402"><strong>Number of Subscribers</strong><br/>
+The number of specific subscribers on a network. Each subscriber may represent more than
+one end-user or include multiple devices.</p>
+</li>
+<li><p id="_eb333063-a08d-c0f6-6a21-3171cedb0907"><strong>Infected Subscribers</strong><br/>
+This is the count of unique subscribers identified to be infected in each reporting period.</p>
+</li>
+<li><p id="_0ac2de8c-dcfe-5166-db35-faeb9ef0c781"><strong>Total Number of Infected Subscribers Notified</strong><br/>
+The number of unique subscribers notified of a bot by any method, including text message,
+phone call, email, Web redirection or browser notification, and postal mail. Multiple notices
+sent to the same subscriber are counted as one. This does not imply that the subscriber
+received or read the notice.</p>
+</li>
+<li><p id="_83bb87e5-6d06-7cde-bb25-3b9a76da343a"><strong>Percent Notified</strong><br/>
+Calculated from above: Infected Subscribers Notified / Infected Subscribers</p>
+</li>
+</ul>
+</clause>
+</sections>
+</m3d-standard>

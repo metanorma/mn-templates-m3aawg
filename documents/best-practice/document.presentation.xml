@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m3d-standard xmlns="https://www.metanorma.org/ns/m3d" type="presentation" version="2.1.7">
+<bibdata type="standard">
+<title language="en" format="text/plain">Calendar operator practices — Guidelines to protect against calendar abuse</title>
+<docidentifier type="M3AAWG">333:2018</docidentifier><docnumber>333</docnumber><date type="published"><on>2018-10-31</on></date><contributor><role type="author"/><organization>
+<name>Messaging Malware and Mobile Anti-Abuse Working Group</name>
+<abbreviation>M3AAWG</abbreviation></organization></contributor><contributor><role type="author"/><person>
+<name><completename>Thomas Schäfer</completename></name>
+<affiliation><organization>
+<name>1&amp;amp;1 Mail&amp;amp;Media Development and Technology GmbH</name>
+</organization></affiliation></person></contributor><contributor><role type="author"/><person>
+<name><completename>Jesse Thompson</completename></name>
+<affiliation><organization>
+<name>University of Wisconsin-Madison</name>
+</organization></affiliation></person></contributor><contributor><role type="publisher"/><organization>
+<name>Messaging Malware and Mobile Anti-Abuse Working Group</name>
+<abbreviation>M3AAWG</abbreviation></organization></contributor><edition language="">1</edition><edition language="en">first edition</edition><version><revision-date>2018-10-31</revision-date></version><language current="true">en</language><script current="true">Latn</script><status><stage>final-draft</stage></status><copyright><from>2018</from><owner><organization>
+<name>Messaging Malware and Mobile Anti-Abuse Working Group</name>
+<abbreviation>M3AAWG</abbreviation></organization></owner></copyright><ext><doctype>report</doctype><editorialgroup><committee>CalConnect TC CALSPAM</committee></editorialgroup></ext></bibdata><localized-strings><localized-string key="scope" language="en">Scope</localized-string><localized-string key="symbolsabbrev" language="en">Symbols and abbreviated terms</localized-string><localized-string key="abbrev" language="en">Abbreviated terms</localized-string><localized-string key="symbols" language="en">Symbols</localized-string><localized-string key="table_of_contents" language="en">Table of contents</localized-string><localized-string key="introduction" language="en">Introduction</localized-string><localized-string key="foreword" language="en">Foreword</localized-string><localized-string key="abstract" language="en">Abstract</localized-string><localized-string key="acknowledgements" language="en">Acknowledgements</localized-string><localized-string key="termsdef" language="en">Terms and definitions</localized-string><localized-string key="termsdefsymbolsabbrev" language="en">Terms, definitions, symbols and abbreviated terms</localized-string><localized-string key="termsdefsymbols" language="en">Terms, definitions and symbols</localized-string><localized-string key="termsdefabbrev" language="en">Terms, definitions and abbreviated terms</localized-string><localized-string key="normref" language="en">Normative references</localized-string><localized-string key="bibliography" language="en">Bibliography</localized-string><localized-string key="preface" language="en">Preface</localized-string><localized-string key="clause" language="en">Clause</localized-string><localized-string key="annex" language="en">Appendix</localized-string><localized-string key="appendix" language="en">Appendix</localized-string><localized-string key="no_terms_boilerplate" language="en"><p>No terms and definitions are listed in this document.</p>
+</localized-string><localized-string key="internal_terms_boilerplate" language="en"><p>For the purposes of this document, 
+    the following terms and definitions apply.</p>
+</localized-string><localized-string key="norm_with_refs_pref" language="en">The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</localized-string><localized-string key="norm_empty_pref" language="en">There are no normative references in this document.</localized-string><localized-string key="external_terms_boilerplate" language="en"><p>For the purposes of this document, 
+  the terms and definitions given in % apply.</p>
+</localized-string><localized-string key="internal_external_terms_boilerplate" language="en"><p>For the purposes of this document, the terms and definitions 
+  given in % and the following apply.</p>
+</localized-string><localized-string key="term_defined_in" language="en">[term defined in %]</localized-string><localized-string key="binary_and" language="en">%1 and %2</localized-string><localized-string key="multiple_and" language="en">%1, and %2</localized-string><localized-string key="binary_or" language="en">%1 or %2</localized-string><localized-string key="multiple_or" language="en">%1, or %2</localized-string><localized-string key="chain_and" language="en">%1 and %2</localized-string><localized-string key="chain_or" language="en">%1 or %2</localized-string><localized-string key="chain_from" language="en">%1 from %2</localized-string><localized-string key="chain_to" language="en">%1 to %2</localized-string><localized-string key="SpelloutRules" language="en">spellout-ordinal</localized-string><localized-string key="note" language="en">NOTE</localized-string><localized-string key="note_xref" language="en">Note</localized-string><localized-string key="termnote" language="en">Note % to entry</localized-string><localized-string key="list" language="en">List</localized-string><localized-string key="deflist" language="en">Definition List</localized-string><localized-string key="figure" language="en">Figure</localized-string><localized-string key="formula" language="en">Formula</localized-string><localized-string key="inequality" language="en">Formula</localized-string><localized-string key="table" language="en">Table</localized-string><localized-string key="requirement" language="en">Requirement</localized-string><localized-string key="recommendation" language="en">Recommendation</localized-string><localized-string key="permission" language="en">Permission</localized-string><localized-string key="recommendationtest" language="en">Recommendation test</localized-string><localized-string key="requirementtest" language="en">Requirement test</localized-string><localized-string key="permissiontest" language="en">Permission test</localized-string><localized-string key="recommendationclass" language="en">Recommendations class</localized-string><localized-string key="requirementclass" language="en">Requirements class</localized-string><localized-string key="permissionclass" language="en">Permissions class</localized-string><localized-string key="abstracttest" language="en">Abstract test</localized-string><localized-string key="conformanceclass" language="en">Conformance class</localized-string><localized-string key="key" language="en">Key</localized-string><localized-string key="example" language="en">EXAMPLE</localized-string><localized-string key="example_xref" language="en">Example</localized-string><localized-string key="where" language="en">where</localized-string><localized-string key="wholeoftext" language="en">Whole of text</localized-string><localized-string key="draft_label" language="en">draft</localized-string><localized-string key="inform_annex" language="en">informative</localized-string><localized-string key="norm_annex" language="en">normative</localized-string><localized-string key="modified" language="en">modified</localized-string><localized-string key="deprecated" language="en">DEPRECATED</localized-string><localized-string key="source" language="en">SOURCE</localized-string><localized-string key="and" language="en">and</localized-string><localized-string key="all_parts" language="en">All Parts</localized-string><localized-string key="edition_ordinal" language="en">%Spellout edition</localized-string><localized-string key="edition" language="en">edition</localized-string><localized-string key="version" language="en">version</localized-string><localized-string key="toc_figures" language="en">List of figures</localized-string><localized-string key="toc_tables" language="en">List of tables</localized-string><localized-string key="toc_recommendations" language="en">List of recommendations</localized-string><localized-string key="month_january" language="en">January</localized-string><localized-string key="month_february" language="en">February</localized-string><localized-string key="month_march" language="en">March</localized-string><localized-string key="month_april" language="en">April</localized-string><localized-string key="month_may" language="en">May</localized-string><localized-string key="month_june" language="en">June</localized-string><localized-string key="month_july" language="en">July</localized-string><localized-string key="month_august" language="en">August</localized-string><localized-string key="month_september" language="en">September</localized-string><localized-string key="month_october" language="en">October</localized-string><localized-string key="month_november" language="en">November</localized-string><localized-string key="month_december" language="en">December</localized-string><localized-string key="obligation" language="en">Obligation</localized-string><localized-string key="subject" language="en">Subject</localized-string><localized-string key="inherits" language="en">Inherits</localized-string><localized-string key="admonition.danger" language="en">Danger</localized-string><localized-string key="admonition.warning" language="en">Warning</localized-string><localized-string key="admonition.caution" language="en">Caution</localized-string><localized-string key="admonition.important" language="en">Important</localized-string><localized-string key="admonition.safety_precautions" language="en">Safety Precautions</localized-string><localized-string key="admonition.editorial" language="en">Editorial Note</localized-string><localized-string key="locality.section" language="en">Section</localized-string><localized-string key="locality.clause" language="en">Clause</localized-string><localized-string key="locality.part" language="en">Part</localized-string><localized-string key="locality.paragraph" language="en">Paragraph</localized-string><localized-string key="locality.chapter" language="en">Chapter</localized-string><localized-string key="locality.page" language="en">Page</localized-string><localized-string key="locality.table" language="en">Table</localized-string><localized-string key="locality.annex" language="en">Annex</localized-string><localized-string key="locality.figure" language="en">Figure</localized-string><localized-string key="locality.example" language="en">Example</localized-string><localized-string key="locality.note" language="en">Note</localized-string><localized-string key="locality.formula" language="en">Formula</localized-string><localized-string key="grammar_abbrevs.masculine" language="en">m</localized-string><localized-string key="grammar_abbrevs.feminine" language="en">f</localized-string><localized-string key="grammar_abbrevs.neuter" language="en">n</localized-string><localized-string key="grammar_abbrevs.common" language="en">common</localized-string><localized-string key="grammar_abbrevs.singular" language="en">sg</localized-string><localized-string key="grammar_abbrevs.dual" language="en">dual</localized-string><localized-string key="grammar_abbrevs.pl" language="en">pl</localized-string><localized-string key="grammar_abbrevs.isPreposition" language="en">prep</localized-string><localized-string key="grammar_abbrevs.isParticiple" language="en">part</localized-string><localized-string key="grammar_abbrevs.isAdjective" language="en">adj</localized-string><localized-string key="grammar_abbrevs.isAdverb" language="en">adv</localized-string><localized-string key="grammar_abbrevs.isNoun" language="en">noun</localized-string><localized-string key="grammar_abbrevs.isVerb" language="en">verb</localized-string><localized-string key="relatedterms.deprecates" language="en">deprecates</localized-string><localized-string key="relatedterms.supersedes" language="en">supersedes</localized-string><localized-string key="relatedterms.narrower" language="en">narrower</localized-string><localized-string key="relatedterms.broader" language="en">broader</localized-string><localized-string key="relatedterms.equivalent" language="en">equivalent</localized-string><localized-string key="relatedterms.compare" language="en">compare</localized-string><localized-string key="relatedterms.contrast" language="en">contrast</localized-string><localized-string key="relatedterms.see" language="en">see</localized-string><localized-string key="relatedterms.seealso" language="en">see also</localized-string><localized-string key="Clause.sg" language="en">Clause</localized-string><localized-string key="Clause.pl" language="en">Clauses</localized-string><localized-string key="Annex.sg" language="en">Annex</localized-string><localized-string key="Annex.pl" language="en">Annexes</localized-string><localized-string key="Appendix.sg" language="en">Appendix</localized-string><localized-string key="Appendix.pl" language="en">Appendixes</localized-string><localized-string key="Note.sg" language="en">Note</localized-string><localized-string key="Note.pl" language="en">Notes</localized-string><localized-string key="Note_%_to_entry.sg" language="en">Note % to entry</localized-string><localized-string key="Note_%_to_entry.pl" language="en">Notes % to entry</localized-string><localized-string key="List.sg" language="en">List</localized-string><localized-string key="List.pl" language="en">Lists</localized-string><localized-string key="Figure.sg" language="en">Figure</localized-string><localized-string key="Figure.pl" language="en">Figures</localized-string><localized-string key="Formula.sg" language="en">Formula</localized-string><localized-string key="Formula.pl" language="en">Formulas</localized-string><localized-string key="Table.sg" language="en">Table</localized-string><localized-string key="Table.pl" language="en">Tables</localized-string><localized-string key="Requirement.sg" language="en">Requirement</localized-string><localized-string key="Requirement.pl" language="en">Requirements</localized-string><localized-string key="Recommendation.sg" language="en">Recommendation</localized-string><localized-string key="Recommendation.pl" language="en">Recommendations</localized-string><localized-string key="Permission.sg" language="en">Permission</localized-string><localized-string key="Permission.pl" language="en">Permissions</localized-string><localized-string key="Example.sg" language="en">Example</localized-string><localized-string key="Example.pl" language="en">Examples</localized-string><localized-string key="Part.sg" language="en">Part</localized-string><localized-string key="Part.pl" language="en">Parts</localized-string><localized-string key="Section.sg" language="en">Section</localized-string><localized-string key="Section.pl" language="en">Sections</localized-string><localized-string key="Paragraph.sg" language="en">Paragraph</localized-string><localized-string key="Paragraph.pl" language="en">Paragraphs</localized-string><localized-string key="Chapter.sg" language="en">Chapter</localized-string><localized-string key="Chapter.pl" language="en">Chapters</localized-string><localized-string key="Page.sg" language="en">Page</localized-string><localized-string key="Page.pl" language="en">Pages</localized-string><localized-string key="language" language="en">en</localized-string><localized-string key="script" language="en">Latn</localized-string></localized-strings>
+<boilerplate>
+  <copyright-statement>
+    <clause>
+      <p id="_faec3d32-3025-62c6-903b-b423e43a816b">© 2018 Messaging, Malware and Mobile Anti-Abuse Working Group</p>
+    </clause>
+  </copyright-statement>
+
+  
+  <license-statement>
+    <clause>
+      <title depth="1">Warning for Drafts</title>
+      <p id="_54a79386-ddfc-a2b4-eb54-d9543770bb18">This document is not an M3AAWG Standard. It is distributed for review and
+        comment, and is subject to change without notice and may not be referred to as
+        a Standard. Recipients of this draft are invited to submit, with their
+        comments, notification of any relevant patent rights of which they are aware
+        and to provide supporting documentation.</p>
+    </clause>
+  </license-statement>
+  
+
+  <legal-statement>
+    <clause>
+      <p id="_299dcfba-ef93-7095-8c28-7f8ffc95374f">All rights reserved. Unless otherwise specified, no part of this
+        publication may be reproduced or utilized otherwise in any form or by any
+        means, electronic or mechanical, including photocopying, or posting on the
+        internet or an intranet, without prior written permission. Permission can
+        be requested from the address below.</p>
+    </clause>
+  </legal-statement>
+
+  <feedback-statement>
+
+    <p id="boilerplate-name">Messaging, Malware and Mobile Anti-Abuse Working Group</p>
+    <p class="boilerplate-address" id="_964db264-9358-0046-6625-b137f10b4c9e">
+      781 Beach Street, Suite 302<br/>
+      San Francisco<br/>
+      California 94109<br/>
+      United States of America<br/>
+      <br/>
+      <link target="https://www.m3aawg.org">www.m3aawg.org</link>
+    </p>
+  </feedback-statement>
+</boilerplate>
+
+<preface><foreword id="_8e73fd29-9bac-3e1e-8de5-aa5924f632fd" obligation="informative" displayorder="1">
+<title>Foreword</title>
+<p id="_fe919369-e0f5-b19b-3ef8-b7ac54945971">The Calendaring and Scheduling Consortium (“CalConnect”) is global non-profit
+organization with the aim of facilitating interoperability of technologies across
+user-centric systems and applications.</p>
+
+<p id="_f26732a2-2799-e3c3-2747-af6af3623027">CalConnect works closely with liaison partners including international
+organizations such as ISO, OASIS and M3AAWG.</p>
+
+<p id="_225a4321-a8da-1e7c-06d8-1b0a8e05a4c2">The procedures used to develop this document and those intended for its further
+maintenance are described in the CalConnect Directives, and in this case, also aligned
+with the procedures used at M3AAWG.</p>
+
+<p id="_c2561956-54b3-2b4e-21eb-3d2ba3038804">In particular the different approval criteria needed for the different types of
+CalConnect documents should be noted. This document was drafted in accordance with the
+editorial rules of the CalConnect Directives.</p>
+
+<p id="_926c2a78-0096-86e8-d084-55b8de7b63a7">Attention is drawn to the possibility that some of the elements of this
+document may be the subject of patent rights. CalConnect shall not be held responsible
+for identifying any or all such patent rights. Details of any patent rights
+identified during the development of the document will be in the Introduction
+and/or on the CalConnect list of patent declarations received (see
+www.calconnect.com/patents).</p>
+
+<p id="_8fdd45e9-9850-dd2f-748c-6e4ca26a1d52">Any trade name used in this document is information given for the convenience
+of users and does not constitute an endorsement.</p>
+
+<p id="_12fe33ea-8350-ebf1-97e1-f8891d0654e5">This document was prepared by Technical Committee <em>CalConnect TC CALSPAM</em>.</p>
+
+<p id="_bec5901f-501c-a98f-497e-be3024f68d1c">Authors:</p>
+
+<p id="_e5d277c3-af96-fabc-b67a-cd9eab9bf698">Thomas Schäfer, 1&amp;1 Mail&amp;Media Development and Technology GmbH</p>
+
+<p id="_d29588b8-f4de-d18c-383a-0f452ca5ff2b">Jesse Thompson, University of Wisconsin-Madison</p>
+</foreword><introduction id="_introduction" obligation="informative" displayorder="2">
+<title>Introduction</title>
+<clause id="_rise_of_calendar_spam" obligation="informative">
+<title depth="2">Rise of calendar spam</title>
+<p id="_22a22bb3-978e-0d3e-5aec-ba2902838410">“Calendar spam” — unsolicited, or otherwise unwanted, calendar events and meeting
+invitations — is a recently exploited channel for abuse aimed at users of
+calendaring &amp; scheduling systems.</p>
+
+<p id="_b4125d5a-17fa-0ec3-b010-7f8e00fdea39">It is a new form of application-specific spam which takes advantage of the application
+layer across multiple technologies that spans scheduling, calendaring and messaging
+systems.</p>
+
+<p id="_a7022de8-068a-d63e-34da-170e0f45af05">As is the case with email spam, calendar spam is not only used to deliver unwanted
+information, but can also be used for malicious purposes such as phishing attempts
+and delivering dangerous payloads.</p>
+
+<p id="_b3e23b88-dc23-325c-9146-4c485713ce2f">Because calendar events and meeting invitations are often (but not exclusively)
+transported and delivered via email, combatting calendar spam requires awareness,
+intervention and integration with email systems and services.</p>
+</clause>
+</introduction></preface><sections>
+
+<clause id="_scope" type="scope" obligation="normative" displayorder="3">
+<title depth="1">1.<tab/>Scope</title>
+<p id="_0173a2ce-754e-05ff-ff15-3e04f5c5b221">This document specifies guidelines for calendar and mail system operators to:</p>
+
+<ul id="_65f0194d-a6bb-340f-ae69-a06ebdcf2540"><li><p id="_f7603466-8008-28f9-acba-20060c6acc22">detect the occurrence of calendar abuse;</p>
+</li>
+<li><p id="_9fae74f9-d15e-3b05-0641-77ff32be8b57">consider processes and procedures to mitigate calendar abuse; and</p>
+</li>
+<li><p id="_7f9bb4cb-5e6f-d78b-e50c-b86b26658061">suggest acceptable (non-abusive) practices with calendar usage.</p>
+</li>
+</ul>
+</clause>
+
+
+
+<clause id="terms" obligation="normative" displayorder="5">
+<title depth="1">3.<tab/>Terms, definitions and abbreviated terms</title><p id="_7c3d8017-787e-a398-a16e-a03a668125c1">For the purposes of this document, 
+    the following terms and definitions apply.</p>
+
+<terms id="_terms_and_definitions" obligation="normative">
+<title depth="2">3.1.<tab/>Terms and definitions</title>
+<term id="calendar-spam"><name>3.1.1.</name><preferred><strong>calendar spam</strong></preferred>
+<definition><p id="_7d256af3-847b-dd14-2cbd-039d2f73726d">calendar events and meeting invitations containing <em>spam</em> [term defined in <xref target="term-spam">Clause 3.1.3</xref>] delivered
+through <strong>term <tt>calendar systems</tt>, display <tt>calendar system</tt> not resolved via ID <tt>calendar-systems</tt></strong></p></definition>
+ </term>
+
+<term id="term-calendar-abuse"><name>3.1.2.</name><preferred><strong>calendar abuse</strong></preferred>
+<definition><p id="_76e95346-49b5-b6e1-00c8-1f6d5aed46f2">malicious usage of a <em>calendar system</em> [term defined in <xref target="term-calendar-system">Clause 3.1.5</xref>]
+possibly leading to an <em>attack</em> [term defined in <xref target="attack">Clause 3.1.4</xref>]
+on the receiving user</p></definition>
+ </term>
+
+<term id="term-spam"><name>3.1.3.</name><preferred><strong>spam</strong></preferred>
+<definition><p id="_d74a8cee-dad4-9fd5-4b46-de21a441ea0e">unsolicited or unwanted information</p></definition>
+ </term>
+
+<term id="attack"><name>3.1.4.</name><preferred><strong>attack</strong></preferred>
+<definition><p id="_a311b3e0-da1b-7838-4f6d-314163e15026">attempt to destroy, expose, alter, disable, steal or gain unauthorized
+access to or make unauthorized use of an asset</p></definition>
+
+
+ <termsource status="identical" type="authoritative">[SOURCE: <origin bibitemid="ISO27000" type="inline" citeas="ISO/IEC 27000:2018">ISO/IEC 27000:2018</origin>]</termsource></term>
+
+<term id="term-calendar-system"><name>3.1.5.</name><preferred><strong>calendar system</strong></preferred>
+<definition><p id="_3dae074e-c9f2-ed7b-cf4b-c51115aaaa75">information system that provides calendar and scheduling functionality for user
+accounts</p></definition>
+ </term>
+
+<term id="mail-system"><name>3.1.6.</name><preferred><strong>mail system</strong></preferred>
+<definition><p id="_c3bb99ca-19ab-8f0b-dc7a-99a5305e7561">information system that provides electronic mail functionality</p></definition>
+ </term>
+
+<term id="user-system"><name>3.1.7.</name><preferred><strong>user system</strong></preferred>
+<definition><p id="_70b30867-c718-8faa-e0bd-4cc4997abf2f">information system that provides authentication and authorization functionality</p></definition>
+ </term>
+</terms>
+
+<definitions id="abbrev" type="abbreviated_terms" obligation="normative">
+<title depth="2">3.2.<tab/>Abbreviated terms</title>
+<dl id="_2870d443-d31f-ccf2-0906-aaece4edf559"><dt id="symbol-ARF">ARF</dt><dd><p id="_0627a7e0-4ae0-870a-a6bf-17d9af77c72d">Abuse Reporting Format</p>
+</dd>
+<dt id="symbol-DNSBL">DNSBL</dt><dd><p id="_63af147a-8876-ad0f-9772-0a750226fb9f">Domain Name System-based Blackhole List</p>
+</dd>
+<dt id="symbol-iMIP">iMIP</dt><dd><p id="_8232401d-daff-93e0-cbea-760b62d8623c">iCalendar Message-Based Interoperability Protocol (see <eref type="inline" bibitemid="iMIP" citeas="IETF RFC 6047">IETF RFC 6047</eref>)</p>
+</dd>
+<dt id="symbol-iTIP">iTIP</dt><dd><p id="_1d577ac4-41e1-3242-44eb-2b400cc9f66a">iCalendar Transport-Independent Interoperability Protocol (see <eref type="inline" bibitemid="iTIP" citeas="IETF RFC 5546">IETF RFC 5546</eref>)</p>
+</dd>
+<dt id="symbol-SMTP">SMTP</dt><dd><p id="_9a8bdfde-e0f9-6944-fb72-4554707af32e">Simple Mail Transfer Protocol (see <eref type="inline" bibitemid="SMTP" citeas="IETF RFC 2821">IETF RFC 2821</eref>)</p>
+</dd>
+<dt id="symbol-URIBL">URIBL</dt><dd><p id="_d1113426-b8a2-0959-8de8-ab230a775b5d">Realtime URI Blacklist</p>
+</dd></dl>
+</definitions></clause>
+
+<clause id="content" obligation="normative" displayorder="6">
+<title depth="1">4.<tab/>Main content</title>
+<p id="_212798d9-0c4a-3885-d1f8-08648229a206">Main content.</p>
+</clause>
+
+
+
+
+
+
+</sections><annex id="annex-1" obligation="normative" displayorder="7">
+<title><strong>Appendix A</strong><br/>(normative)<br/><strong>Annex One</strong></title>
+<p id="_326e2dae-a6c4-f925-6eba-5f0b2a20e21e">This is a normative annex.</p>
+</annex><annex id="annex-2" obligation="informative" displayorder="8">
+<title><strong>Appendix B</strong><br/>(informative)<br/><strong>Annex Two</strong></title>
+<p id="_0fe5d1ed-78b7-c98d-6c85-8f19f2321031">This is an informative annex.</p>
+</annex><bibliography><references id="_normative_references" normative="true" obligation="informative" displayorder="4">
+<title depth="1">2.<tab/>Normative references</title><p id="_4aa53cae-828c-1df3-1dfd-b7fa18599427">The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</p>
+ <bibitem id="iMIP" type="standard"><formattedref>A. MELNIKOV (ed.). <em>iCalendar Message-Based Interoperability Protocol (iMIP)</em>. In: RFC. December 2010. <link target="https://www.rfc-editor.org/info/rfc6047">https://www.rfc-editor.org/info/rfc6047</link>.</formattedref><uri type="src">https://www.rfc-editor.org/info/rfc6047</uri><docidentifier type="IETF" primary="true">IETF RFC 6047</docidentifier><docidentifier type="DOI">DOI 10.17487/RFC6047</docidentifier></bibitem>
+ <bibitem id="iTIP" type="standard"><formattedref>C. DABOO (ed.). <em>iCalendar Transport-Independent Interoperability Protocol (iTIP)</em>. In: RFC. December 2009. <link target="https://www.rfc-editor.org/info/rfc5546">https://www.rfc-editor.org/info/rfc5546</link>.</formattedref><uri type="src">https://www.rfc-editor.org/info/rfc5546</uri><docidentifier type="IETF" primary="true">IETF RFC 5546</docidentifier><docidentifier type="DOI">DOI 10.17487/RFC5546</docidentifier></bibitem>
+</references><references id="_bibliography" normative="false" obligation="informative" displayorder="9">
+<title depth="1">Bibliography</title><bibitem id="ISO27000" type="standard"><formattedref>International Organization for Standardization and International Electrotechnical Commission. <em>Information technology — Security techniques — Information security management systems — Overview and vocabulary</em>. 5th edition. February 2018. Geneva. <link target="https://www.iso.org/standard/73906.html">https://www.iso.org/standard/73906.html</link>.</formattedref><uri type="src">https://www.iso.org/standard/73906.html</uri><uri type="obp">https://www.iso.org/obp/ui/#!iso:std:73906:en</uri><uri type="rss">https://www.iso.org/contents/data/standard/07/39/73906.detail.rss</uri><docidentifier type="metanorma-ordinal">[1]</docidentifier><docidentifier type="ISO" primary="true">ISO/IEC 27000:2018</docidentifier><docidentifier type="URN">URN urn:iso:std:iso-iec:27000:stage-60.60:ed-5</docidentifier></bibitem><bibitem id="SMTP" type="standard"><formattedref>J. KLENSIN (ed.). <em>Simple Mail Transfer Protocol</em>. In: RFC. April 2001. <link target="https://www.rfc-editor.org/info/rfc2821">https://www.rfc-editor.org/info/rfc2821</link>.</formattedref><uri type="src">https://www.rfc-editor.org/info/rfc2821</uri><docidentifier type="metanorma-ordinal">[2]</docidentifier><docidentifier type="IETF" primary="true">IETF RFC 2821</docidentifier><docidentifier type="DOI">DOI 10.17487/RFC2821</docidentifier></bibitem>
+ 
+ 
+</references></bibliography>
+</m3d-standard>

@@ -1,0 +1,18 @@
+/__w/mn-templates-m3aawg/mn-templates-m3aawg/site/documents/report/document.err errors
+
+
+== Metanorma XML Style Warning
+
+(XML Line 000037): Table should have title
+	<table id="_145e94a7-cdc1-062a-a86f-0034884c9b12" unnumbered="true"><thead><tr><th valign="top" align="left">2012</th>
+	<th valign="top" align="left">Q1 2012</th>
+	<th valign="top" align="left">Q2 2012</th>
+	<th valign="top" align="left">Q3 2012</th>
+	<th valign="top" align="left">Q4 2012</th>
+
+
+== Metanorma XML Syntax
+
+(XML Line 000034:79): attribute "class" not allowed here; expected attribute "align", "id", "keep-lines-together", "keep-with-next", "multilingual-rendering", "tag" or "type"
+(XML Line 000045:11): element "sections" not allowed yet; missing required element "preface"
+(XML Line 000130:16): element "m3d-standard" incomplete; missing required element "bibliography"
